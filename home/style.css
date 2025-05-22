@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonte e cores */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0fdf4;
+    color: #2e3d27;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2e3d27;
+    transition: color 0.3s;
+  }
+  
+  /* Cabeçalho com menu */
+  header {
+    background-color: #14532d;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #22c55e;
+    color: #fff;
+  }
+  
+  /* Banner */
+  #banner {
+    background: url('imagens/Mercado-Belem-do-Para-blog.jpg') center/cover no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 15rem 1rem;
+    background-blend-mode: multiply;
+    background-color: rgba(20, 83, 45, 0.6);
+  }
+  
+  #banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  #banner p {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+  
+  /* Apresentação */
+  #apresentacao {
+    padding: 4rem 1rem;
+    background-color: #ecfdf5;
+    color: #065f46;
+  }
+  
+  #apresentacao .container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  #apresentacao h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #065f46;
+  }
+  
+  #apresentacao p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #14532d;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
