@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre a COP30 | Belém Verde</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js]"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="index.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../home/index.html">Início</a></li>
+        <li><a href="../cop30/index.html" class="ativo">Sobre a COP30</a></li>
+        <li><a>Guia Verde</a></li>
+        <li><a>Soluções Sustentáveis</a></li>
+        <li><a>Dicas Ambientais</a></li>
+        <li><a href="../Quiz/index.html">Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner-cop">
+    <div class="texto-banner">
+      <h1>Quiz Verde</h1>
+      <p>Teste seus conhecimentos sobre a COP30 e sustentabilidade</p>
+    </div>
+  </section>
+  </header>
+
+  <!-- Quiz -->
+  <section id="apresentacao">
+    <div class="container">
+      <h2>Responda as perguntas abaixo 🌱</h2>
+      <form id="quiz-form">
+        <div id="quiz-container"></div>
+        <button type="button" class="btn-verde" onclick="verResultado()">Ver Resultado</button>
+        <button type="button" id="retry-btn" class="btn-verde" style="display: none;" onclick="reiniciarQuiz()">Tentar novamente</button>
+
+      </form>
+      <div id="resultado" class="resultado" style="display: none;"></div>
+    </div>
+  </section>
+
+<footer>
+    <p>Projeto acadêmico — Tecnologia e COP30 | Desenvolvido por Jamille</p>
+  </footer>
+</body>
+</html>
